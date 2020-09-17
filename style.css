@@ -1,0 +1,290 @@
+@font-face
+{
+	font-family: 'Ballpar Weiner';
+	src:url('cat/ballpark.eot');
+	src:url('cat/ballpark.eot?#iefix') format('embedded-opentype'),
+		url('cat/ballpark.woff') format('woff'),
+		url('cat/ballpark.ttf') format('truetype'),
+		url('cat/ballpark.svg#BallparkWeiner') format('svg');
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Day Roman Regular';
+	src:url('cat/dayrom.eot');
+	src:url('cat/dayrom.eot?#iefix') format('embedded-opentype'),
+	url('cat/dayrom.woff') format('woff'),
+	url('cat/dayrol.ttf') format('truetype'),
+	url('cat/dayrol.svg#Dayrom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body
+{  
+    font-family:Arial, Helvetica, sans-serif, sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+/* about */
+section
+{
+    padding: 45px 0px 80px 0px;
+    width: 100%;
+}
+section .heading
+{
+    text-align: center;
+}
+#about1
+{   
+    padding-top: 50px;
+    background-color:rgba(0, 0,0, 0.8);
+}
+section .heading h1
+{
+    text-transform:uppercase;
+    color:white;
+    font-family: 'Ballpark Weiner';
+}
+section .heading h1 .name
+{
+    color:rgb(0, 128, 64);
+}
+section .heading h3
+{
+    color:black;
+    text-transform: capitalize;
+}
+.button1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid white;
+    color: white;
+    padding: 18px 50px;
+    border-radius: 3px;
+    display: inline-block;
+    transition: all 0.3s ease-in
+}
+.button1:hover
+{
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+img
+{
+    height: auto;
+    max-width:100% ;
+    /* border-radius:50%; */
+}
+.profile-picture
+{
+    float:none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:100px;
+}
+/*presentation*/
+#presentation
+{
+    background-color:rgb(255, 115,47);
+}
+#presentation h2
+{
+    color:white;
+    font-family: 'Trebuchet MS',  sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.white-divider
+{
+    height: 2px;
+    width: 100px;
+    background: white;
+    margin: 0 auto;
+}
+.bordy
+{
+    text-align: center;
+    color:white;
+}
+.bordy p
+{
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*skills*/
+#skills
+{
+    background-color:rgba(0, 0,0, 0.8);
+}
+.white-divider
+{
+    height: 2px;
+    width: 100px;
+    background: white;
+    margin: 0 auto;
+}
+#skills .heading h2
+{
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 50px;
+}
+#skills .camps
+{
+    background:white;
+    padding: 20px;
+}
+.progress-bar-warning
+{
+    background:rgb(255, 115,47);
+}
+#skills .camps h4
+{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#skills .camps .progress-bar h5
+{
+    margin:auto;
+    font-size: large;
+}
+/*portfolio*/
+#portfolio
+{
+    background:white;
+}
+#portfolio .row
+{
+    background:rgb(255, 115,47) ;
+    padding: 40px;
+}
+#portfolio .heading h2
+{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color:rgb(255, 115,47) ;
+}
+#portfolio .orange-divider
+{
+    height: 2px;
+    width: 100px;
+    background: rgb(255, 115,47);
+    margin: 0 auto;
+}
+#portfolio .thumbnail img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#portfolio .thumbnail img:hover
+{
+    filter: none;
+    -webkit-filter: none;
+}
+/*contact*/
+#contact
+{
+    background:black;
+}
+#contact .heading h2
+{
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 50px;
+}
+.cate
+{
+    text-align: center;
+}
+#contact .cate a
+{
+    font-size: large;
+    color:white;
+    font-style: italic;
+    display: block;
+}
+#contact .cate a:hover
+{
+    text-decoration: none;
+}
+/* form h4
+{
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+} */
+.copy
+{
+    margin-bottom: 0;
+    background-color: black;
+}
+
+.copy p
+{
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
+.navbar
+{
+    background:white ;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: black !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color:white !important;
+    background-color: rgb(255, 115,47)!important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: black !important;
+}
+/* .navbar li a .logo
+{
+    font-style: italic;
+    font-family: ar;
+} */
+
+
+
+
+
+
+
+
